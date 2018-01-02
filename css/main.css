@@ -1,0 +1,76 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: ;
+  color: ;
+}
+.container-flex-row{
+  display: flex;
+  justify-content: space-between;
+}
+.container-flex-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+}
+.vh100{
+  height: 100vh;
+}
+.sectionPhone{
+  text-align: center;
+}
+
+.background{
+  background-image: url("../assets/images/splash1.jpg");
+  background-repeat: none;
+  background-position: 0;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.background-splash{
+  background-image: url("../assets/images/splash2.jpg");
+  background-repeat: none;
+  background-position: 0;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+.buttons-register{
+ padding-top: 85vh;
+}
+.but-reg{
+
+}
+.btn-regt{
+
+}
+/*-------HTML signupCodigo----------*/
+.sectionCodigo{
+  text-align: center;
+}
+.icon-land{
+  width: 50px;
+}
+.ups{
+  color: red;
+}
+.input-codigo{
+  width: 30%;
+}
+/*-------HTML signup----------*/
+.section-signup{
+  text-align: center;
+}
+
+.check-back{
+  height: 100vh;
+  width: 100vw;
+}

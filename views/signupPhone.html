@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>phone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  </head>
+
+  <body class="vh100">
+    <section class="sectionPhone">
+
+      <div class="slide-buttons container-flex-row">
+        <a href="register.html" type="button" class="btn btn-default">
+          <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+        </a>
+      </div>
+      <h1>Sign up</h1>
+      <p>Join now for free ride credit</p>
+
+    </section>
+    <section>
+      <form class="form-inline">
+        <div class="form-group">
+          <span class="">
+            <div class="dropdown">
+
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" value="">
+                <a show><img class="icon-land" src="../assets/icons/fonts/peru.ico" alt="">
+                <a  hidden><img class="icon-land" src="../assets/icons/fonts/mexico.ico" alt="">
+                <a  hidden><img class="icon-land" src="../assets/icons/fonts/chile.ico" alt="">
+                <span class="caret"></span>
+              </button>
+
+              <ul id="getIcon" class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <!--  <li> <a hidden class="land" ><img class="icon-land" src="../assets/icons/fonts/peru.ico" alt=""></li>-->
+                <li> <a show class="land" ><img class="icon-land" src="../assets/icons/fonts/mexico.ico" alt=""></li>
+                <li> <a show class="land" ><img class="icon-land" src="../assets/icons/fonts/chile.ico" alt=""></li>
+              </ul>
+
+              <input id="phone" type="input" placeholder="Phone number" value="51">
+
+            </div>
+          </span>
+        </div>
+        <br>
+        <button type="submit" id="signup" class="btn btn-default" value="" disabled>NEXT</button>
+
+      </form>
+
+    </section>
+
+
+    <script src="../vendors/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/signupPhone.js" type="text/javascript" charset="utf-8"></script>
+    <!-- <script src="js/signup-form.js" type="text/javascript" charset="utf-8"></script> -->
+  </body>
+</html>
